@@ -9,7 +9,6 @@ export default component$(() => {
           <Slot />
       </main>
       <footer>
-
       </footer>
     </>
   );
