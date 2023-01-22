@@ -21,6 +21,7 @@ export default component$(() => {
 
   return (
     <>
+    james
       <input
         type="range"
         value={state.number}

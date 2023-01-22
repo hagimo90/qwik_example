@@ -4,9 +4,9 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
-      <main class="flex-1 flex flex-col ">
+      <main class="flex-1 flex flex-col  relative">
         <Header />
-          <Slot />
+        <Slot />
       </main>
       <footer>
       </footer>
